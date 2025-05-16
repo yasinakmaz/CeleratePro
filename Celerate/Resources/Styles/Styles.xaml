@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:inputs="clr-namespace:Syncfusion.Maui.Inputs;assembly=Syncfusion.Maui.Inputs">
+
+    <Style TargetType="Page" ApplyToDerivedTypes="True">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Dark={StaticResource PrimaryDark}, Light={StaticResource PrimaryWhite}}"/>
+    </Style>
+
+    <Style TargetType="Border" x:Key="BrdStandart">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Dark={StaticResource SecondaryDark}, Light={StaticResource SecondaryWhite}}"/>
+        <Setter Property="Stroke" Value="{AppThemeBinding Dark={StaticResource White}, Light={StaticResource Black}}"/>
+        <Setter Property="StrokeShape" Value="RoundRectangle 10"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="LblHeader">
+        <Setter Property="FontFamily" Value="EthosNovaBold"/>
+        <Setter Property="FontSize" Value="17"/>
+    </Style>
+
+    <Style TargetType="inputs:SfMaskedEntry" x:Key="TxtMsc">
+        <Setter Property="BackgroundColor" Value="{AppThemeBinding Dark={StaticResource ThirdyDark}, Light={StaticResource ThirdyWhite}}"/>
+        <Setter Property="ClearButtonColor" Value="{AppThemeBinding Dark={StaticResource White},Light={StaticResource Black}}"/>
+        <Setter Property="FontFamily" Value="EthosNovaBold"/>
+    </Style>
+
+</ResourceDictionary>

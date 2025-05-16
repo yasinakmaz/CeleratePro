@@ -1,0 +1,16 @@
+﻿global using Syncfusion.Maui.Core;
+global using Syncfusion.Maui.Core.Hosting;
+global using Syncfusion.Maui.Charts;
+global using Syncfusion.Maui.DataGrid;
+global using Syncfusion.Maui.DataGrid.Helper;
+global using Syncfusion.Maui.Scheduler;
+global using Syncfusion.Maui.ListView;
+global using Syncfusion.Maui.Inputs;
+global using Syncfusion.Maui.Gauges;
+global using Syncfusion.Maui.Popup;
+global using Syncfusion.Maui.Calendar;
+global using Syncfusion.Maui.Picker;
+global using Syncfusion.Maui.TabView;
+global using Syncfusion.Maui.PdfViewer;
+global using Syncfusion.Maui.TreeView;
+global using Syncfusion.Maui.Sliders;
